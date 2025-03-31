@@ -3,15 +3,19 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "TINA_PUBLIC_IS_LOCAL=true tinacms dev -c \"astro dev\"",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "tinacms build && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.32.3",
     "astro": "^5.1.5",
-    "sharp": "^0.32.5"
+    "sharp": "^0.32.5",
+    "tinacms": "^2.7.3"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.9.3"
   }
 }
