@@ -1,5 +1,5 @@
 ---
-title: Example Reference 2
+title: Example Reference 2 hello
 description: A reference page in my new Starlight docs site.
 ---
 
