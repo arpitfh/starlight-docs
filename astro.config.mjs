@@ -27,12 +27,12 @@ export default defineConfig({
       },
       sidebar: [
         // You can keep some static entries if needed
-        {
-          label: 'Guides',
-          items: [
-            { label: 'Example Guide', slug: 'guides/example' },
-          ],
-        },
+        // {
+        //   label: 'Guides',
+        //   items: [
+        //     { label: 'Example Guide', slug: 'guides/example' },
+        //   ],
+        // },
         // Dynamically generated entries from folders
         ...generateSidebarFromFolders()
       ],
