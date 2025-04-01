@@ -9,7 +9,7 @@ In addition to CDP, FirstHive has variety of interactive tools such as quizzes, 
 
 ![](</admin/Screenshot 2025-04-01 at 12.30.25 PM.png>)
 
-## Key stages in the data lifecycle:
+## Key stages in the data lifecycle
 
 This guide is built to cover all the features FirstHive covers as a Full-stack CDP. We can group the stages of a CDP into broader buckets to provide a more high-level overview of the typical functionalities and processes involved. Here's a simplified breakdown:
 
@@ -33,6 +33,6 @@ This guide is built to cover all the features FirstHive covers as a Full-stack C
    2. Consent Management: Managing customer consent preferences regarding data usage and communication.
    3. Data Governance: Establishing policies and procedures for managing and governing customer data effectively.
 
-## Conclusion:
+## Conclusion
 
 FirstHive empowers businesses to harness the power of customer data to drive personalized marketing campaigns, enhance customer engagement, and achieve measurable business results. With its comprehensive features and capabilities, FirstHive is the ideal platform for businesses looking to unlock the full potential of their customer data and elevate their marketing efforts.
