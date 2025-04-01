@@ -30,10 +30,21 @@ function generateSidebarFromFolders() {
 export default defineConfig({
   integrations: [
     starlight({
-      title: 'My Docs',
-      social: {
-        github: 'https://github.com/withastro/starlight',
+      title: 'FirstHive',
+      logo: {
+        src: './src/assets/logo.png',
+        // Optional: Add alt text alongside the logo
+        alt: 'FirstHive Logo',
+        replacesTitle: true
       },
+      // social: {
+      //   // github: 'https://github.com/withastro/starlight',
+      //   linkedin: 'https://www.linkedin.com/company/firsthivecdp'
+      // },
+      // components: {
+      //   // Use our custom component
+      //   SocialIcons: './src/components/starlight/SocialIcons.astro',
+      // },
       sidebar: [
         // You can keep some static entries if needed
         // {

@@ -1,0 +1,45 @@
+// src/components/starlight/SocialIcons.astro
+---
+import type { Props } from '@astrojs/starlight/components/SocialIcons.astro';
+import Default from '@astrojs/starlight/components/SocialIcons.astro';
+import { Icon } from '@astrojs/starlight/components';
+
+// Get the standard social links from props
+const { links } = Astro.props;
+
+// Add your custom links that will appear like social buttons
+const customLinks = {
+  ...links,
+  // Custom link examples:
+  docs: {
+    url: '/docs',
+    label: 'Documentation',
+    icon: 'document',  // Using a built-in Starlight icon
+    linkAttributes: {
+      target: '_blank',
+      rel: 'noopener noreferrer'
+    }
+  },
+  dashboard: {
+    url: 'https://dashboard.example.com',
+    label: 'Dashboard',
+    icon: 'external',  // Using a built-in Starlight icon
+    linkAttributes: {
+      target: '_blank',
+      rel: 'noopener noreferrer'
+    }
+  }
+};
+---
+
+<!-- Standard social icons with our custom ones added -->
+<div class="social-icons">
+  <Default links={customLinks} />
+</div>
+
+<style>
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+</style>
