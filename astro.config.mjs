@@ -58,4 +58,8 @@ export default defineConfig({
       ],
     }),
   ],
+  // Add this to ignore .gitkeep files
+  build: {
+    excludeFiles: ['**/.gitkeep']
+  }
 });
