@@ -7,7 +7,7 @@ FirstHive is a comprehensive full-stack customer data platform (CDP) that empowe
 
 In addition to CDP, FirstHive has variety of interactive tools such as quizzes, surveys, loyalty management platform, at al, under Apps Marketplace which allows for zero-party, first-party data-capture and experience-creation software.
 
-![](</admin/Screenshot 2025-04-01 at 12.30.25 PM.png>)
+![](/01159d74-5231-4dd7-aec8-1b4bbebba76c.png)
 
 ## Key stages in the data lifecycle
 
