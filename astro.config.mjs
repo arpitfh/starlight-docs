@@ -11,10 +11,19 @@ function generateSidebarFromFolders() {
     .filter(dirent => dirent.isDirectory())
     .map(dirent => dirent.name);
   
-  return folders.map(folder => ({
-    label: folder.charAt(0).toUpperCase() + folder.slice(1), // Capitalize folder name
-    autogenerate: { directory: folder }
-  }));
+  return folders.map(folder => {
+    // Convert folder name to display label (capitalize words)
+    const label = folder
+      .split('-')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+    
+    // For directory reference, use the actual folder name
+    return {
+      label: label,
+      autogenerate: { directory: folder }
+    };
+  });
 }
 
 // https://astro.build/config
